@@ -1,0 +1,19 @@
+html{
+    height: 100;
+width: 100%;
+}
+
+body{
+
+    background: white;
+}
+
+.iconos{
+    display: flex;
+    height: 10%;
+    flex-flow: row-reverse;
+    justify-content: center;
+    background-color: aqua;
+    
+
+}
