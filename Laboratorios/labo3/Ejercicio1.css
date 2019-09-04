@@ -1,7 +1,10 @@
 body{
     background-color: black 
 }
-
+h1{
+	color: white;
+	grid-area: span 1 / span 8;
+}
 .gridcontainer{
     display: grid;
     margin: 5em auto;

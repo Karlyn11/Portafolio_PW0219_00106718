@@ -2,18 +2,93 @@ html{
     height: 100;
 width: 100%;
 }
-
 body{
 
     background: white;
 }
 
+.header{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+}
+
+
 .iconos{
     display: flex;
-    height: 10%;
-    flex-flow: row-reverse;
+    height: 100%;
+    flex-flow: row;
     justify-content: center;
-    background-color: aqua;
     
+    
+}
 
+.container{ 
+		background-image: url("mandala.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.inicio{
+	 display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	height: 400px;
+}
+
+.A{
+		color: white;
+	background-color: hotpink;
+	margin: 5px;
+}
+
+.B{
+		color: white;
+	background-color: aquamarine;
+	margin: 5px;
+}
+
+.C{
+		color: white;
+	background-color: darkseagreen;
+	margin: 5px;
+}
+
+.D{
+		color: white;
+	background-color: mediumpurple;
+	margin: 5px;
+}
+
+.E{
+		color: white;
+	background-color: cyan;
+	margin: 5px;
+}
+
+.foot{
+		display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 50px;
+}
+
+img{
+	margin: 30px;
+	height:50px;
+}
+
+.linea{
+	border: 1px solid white;
+	width: 800px;
+	height: 3px;
+	background-color: wheat;
+}
+button:hover{
+	background-color: deeppink;
 }
