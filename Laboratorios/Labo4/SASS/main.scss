@@ -1,0 +1,34 @@
+/* Scss Document */
+
+
+.inicio{
+	 display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	height: 400px;
+}
+
+.linea{
+	border: 1px solid white;
+	width: 800px;
+	height: 3px;
+	background-color: wheat;
+}
+
+
+.iconos{
+    display: flex;
+    height: 100%;
+    flex-flow: row;
+    justify-content: center;
+    
+    
+}
+
+
+img{
+	margin: 30px;
+	height:50px;
+}

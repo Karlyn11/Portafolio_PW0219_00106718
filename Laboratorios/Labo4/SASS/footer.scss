@@ -1,0 +1,20 @@
+/* Scss Document */
+.foot{
+		display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	height: 50px;
+}
+
+.D{
+		color: white;
+	background-color: mediumpurple;
+	margin: 5px;
+}
+
+.E{
+		color: white;
+	background-color: cyan;
+	margin: 5px;
+}

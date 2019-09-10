@@ -1,0 +1,27 @@
+/* Scss Document */
+.header{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+}
+
+
+.A{
+		color: white;
+	background-color: hotpink;
+	margin: 5px;
+}
+
+.B{
+		color: white;
+	background-color: aquamarine;
+	margin: 5px;
+}
+
+.C{
+		color: white;
+	background-color: darkseagreen;
+	margin: 5px;
+}
